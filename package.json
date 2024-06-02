@@ -1,6 +1,6 @@
 {
   "name": "close-a-curtain",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "type": "module",
   "description": "This component features an animated curtain effect that dynamically opens and closes based on user interactions. Perfect for adding a dramatic reveal or a hidden content section to your web application.",
   "author": "Nacho Betancourt",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softwarenacho/curtain"
+    "url": "git+https://github.com/softwarenacho/curtain.git"
   },
   "keywords": [
     "react",
