@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Greeting component >  prop working 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+    onClick={[Function]}
+    style={
+      {
+        "background": "white",
+        "borderBottomWidth": "10px",
+        "borderColor": "#daa520",
+        "borderStyle": "double",
+        "borderTopWidth": "",
+        "bottom": "unset",
+        "filter": "drop-shadow(0px 1px 1px black)",
+        "top": "0",
+      }
+    }
+  />
+  <div
+    className="content"
+  >
+    <h1>
+      Content
+    </h1>
+  </div>
+  <div
+    className="bottom"
+    onClick={[Function]}
+    style={
+      {
+        "background": "white",
+        "borderBottomWidth": "",
+        "borderColor": "#daa520",
+        "borderStyle": "double",
+        "borderTopWidth": "10px",
+        "bottom": "0",
+        "filter": "drop-shadow(0px -1px 1px black)",
+        "top": "unset",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Greeting component > Greeting component renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="top"
+    onClick={[Function]}
+    style={
+      {
+        "background": "#8b4513",
+        "borderBottomWidth": "10px",
+        "borderColor": "#daa520",
+        "borderStyle": "double",
+        "borderTopWidth": "",
+        "bottom": "unset",
+        "filter": "drop-shadow(0px 1px 1px black)",
+        "top": "0",
+      }
+    }
+  />
+  <div
+    className="content"
+  >
+    <h1>
+      Content
+    </h1>
+  </div>
+  <div
+    className="bottom"
+    onClick={[Function]}
+    style={
+      {
+        "background": "#8b4513",
+        "borderBottomWidth": "",
+        "borderColor": "#daa520",
+        "borderStyle": "double",
+        "borderTopWidth": "10px",
+        "bottom": "0",
+        "filter": "drop-shadow(0px -1px 1px black)",
+        "top": "unset",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,60 @@
+{
+  "name": "close-a-curtain",
+  "version": "0.5.0",
+  "type": "module",
+  "description": "This component features an animated curtain effect that dynamically opens and closes based on user interactions. Perfect for adding a dramatic reveal or a hidden content section to your web application.",
+  "author": "Nacho Betancourt",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "watch": "vitest"
+  },
+  "main": "./dist/close-a-curtain.umd.js",
+  "module": "./dist/close-a-curtain.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/close-a-curtain.es.js",
+      "require": "./dist/close-a-curtain.umd.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarenacho/curtain"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "animation",
+    "close-a-curtain",
+    "css"
+  ],
+  "dependencies": {
+    "@testing-library/dom": "^10.1.0",
+    "@testing-library/react": "^15.0.7",
+    "c8": "^9.1.0",
+    "eslint-plugin-react": "^7.34.2",
+    "jsdom": "^24.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.3.1",
+    "vitest": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^9.4.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
